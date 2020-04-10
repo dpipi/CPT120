@@ -510,7 +510,7 @@ public class CarDesigner
    }
 
    /**
-    * Adds Selected car choices to array, if array full then uses mutators to change
+    * Adds Selected car choices to array, if array full then uses a mutator to change
     * the details for each of the three choices.
     */
    public void addCar(String make, String model, String color, String engine)
@@ -523,7 +523,7 @@ public class CarDesigner
          this.currentNumCars++;
       }
       else
-      { // Array already full - use mutators to change details
+      { // Array already full - uses a mutator to change details
          this.CarList[0].setMake(make); // Set car make
          this.CarList[0].setModel(model); // Set car model
          this.CarList[0].setColor(color); // Set car color
@@ -678,7 +678,7 @@ public class CarDesigner
 
    public static void main(String[] args)
    {
-      // TODO Auto-generated method stub
+      // Suppress warning
       @SuppressWarnings("unused")
       CarDesigner build = new CarDesigner(1);
    }
