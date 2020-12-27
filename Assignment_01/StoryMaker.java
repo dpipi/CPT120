@@ -60,7 +60,7 @@ public class StoryMaker
       // than 20, and if true assign string to storyInsert variable
       else if (number > 10 && number <= 20)
       {
-         storyInsert = "This made hime very very fat";
+         storyInsert = "This made himS very very fat";
       }
       // if integer variable named 'number' is greater than 20
       // assign string to storyInsert variable
@@ -72,7 +72,7 @@ public class StoryMaker
       // Declare variable named story as type string and create story
       // Create story string inserting user inputs of both types, numbers and strings
       String story = "\nThere was a caterpillar named " + nameOne + "\n";
-      story = story + nameOne + " was a very hungry catterpillar\n";
+      story = story + nameOne + " was a very hungry Catterpillar\n";
       story = story + nameOne + " ate " + number + " leaves of the tree, " +
               storyInsert + "\n";
       story = story + nameOne + " then grew and grew and grew and changed into a\n";
